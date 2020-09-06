@@ -1,0 +1,15 @@
+version: "3"
+services:
+    # 名前は何でも
+    jupyterlab:
+        restart: always
+        build: .
+        container_name: "jupyterlab"
+        # jupyerlabに80番ポートでアクセスする場合 80:8888 に書き換える
+        ports:
+            - "8888:8888"
+        tty: true
+        volumes:
+            - ./workspace:/code
+        working_dir: "/code"
+
