@@ -18,7 +18,7 @@ docker-compose up -d
 
 Dockerを落とす場合は、下記のコマンドを実行して下さい。
 ```bash
-docker-compose up -d
+docker-compose down
 ```
 
 ## 3.2. JupyterLabへのアクセス
