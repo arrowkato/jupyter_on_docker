@@ -1,2 +1,2 @@
 # workspace配下でgit登録する必要ないファイルを記載して下さい
-.ipnb_checkpoints
+.ipnb_checkpoints/
